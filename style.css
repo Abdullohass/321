@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1220px;
+}
+
+.video__box {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.video__box video {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.ota {
+    position: relative;
+    z-index: 3;
+    padding-top: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.menu__list {
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 28px;
+}
+
+.menu__list li a {
+    text-decoration: none;
+    color: white;
+    width: 57.67px;
+    height: 20.39px;
+    top: 100px;
+    left: 100px;
+    padding: 0px 0px 0.79px 0px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.text__box {
+    padding-top: 400px;
+    top: 400px;
+}
+
+.text__box h3 {
+    font-size: 17.19px;
+    font-weight: 400;
+    line-height: 38px;
+    text-align: left;
+}
+
+.text__box h1 {
+    font-size: 41.06px;
+    font-weight: 400;
+    line-height: 48px;
+    text-align: left;
+}
+
+.text__box button {
+    width: 120px;
+    height: 40px;
+    background-color: inherit;
+    border: 2px solid;
+}
+
+.rocket__img1 {
+    background-image: url(./img/Img.png);
+    background-repeat: no-repeat;
+}
+
+.text__box2 {
+    padding-top: 840px;
+    padding-bottom: 180px;
+}
+
+.text__box2 h3 {
+    font-size: 17.19px;
+    font-weight: 400;
+    line-height: 38px;
+    text-align: left;
+    color: white;
+}
+
+.text__box2 h1 {
+    font-size: 41.06px;
+    font-weight: 400;
+    line-height: 48px;
+    text-align: left;
+    color: white;
+}
+
+.text__box2 button {
+    width: 120px;
+    height: 40px;
+    background-color: inherit;
+    border: 2px solid white;
+    color: white;
+}
+
+footer {
+    background-color: black;
+    padding: 40px;
+}
+
+footer .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+}
+
+footer .container li a {
+    text-decoration: none;
+    color: white;
+}
+
+footer p {
+    color: white;
+}
+
+.rocket__img2 {
+    background-image: url(./img/Img\ \(1\).png);
+    background-repeat: no-repeat;
+}
+
+.rocket__img3 {
+    background-image: url(./img/Img\ \(2\).png);
+    background-repeat: no-repeat;
+}
+
+.rocket__img4 {
+    background-image: url(./img/Img\ \(3\).png);
+    background-repeat: no-repeat;
+}
+
+.rocket__img5 {
+    background-image: url(./img/Img\ \(4\).png);
+    background-repeat: no-repeat;
+}
